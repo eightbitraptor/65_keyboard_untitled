@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name acheron_MX)(type KiCad)(uri ${KIPRJMOD}/acheronLibrary/footprints/acheron_MX.pretty)(options "")(descr ""))
+)
