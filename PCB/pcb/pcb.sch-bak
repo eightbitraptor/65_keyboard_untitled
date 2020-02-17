@@ -296,7 +296,7 @@ F 3 "~" H 900 7150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L pcb-rescue:MX-NoLED-MX_Alps_Hybrid MX1
+L MX_Alps_Hybrid:MX-NoLED MX1
 U 1 1 5E4730BC
 P 1950 1150
 F 0 "MX1" H 1983 1373 60  0000 C CNN
@@ -328,7 +328,7 @@ Wire Wire Line
 	2100 1100 2150 1100
 Connection ~ 2150 1100
 $Comp
-L pcb-rescue:MX-NoLED-MX_Alps_Hybrid MX2
+L MX_Alps_Hybrid:MX-NoLED MX2
 U 1 1 5E480EEE
 P 2500 1150
 F 0 "MX2" H 2533 1373 60  0000 C CNN
@@ -360,7 +360,7 @@ Connection ~ 2700 1100
 Wire Wire Line
 	1800 1500 2350 1500
 $Comp
-L pcb-rescue:MX-NoLED-MX_Alps_Hybrid MX3
+L MX_Alps_Hybrid:MX-NoLED MX3
 U 1 1 5E483747
 P 3050 1150
 F 0 "MX3" H 3083 1373 60  0000 C CNN
@@ -390,7 +390,7 @@ Wire Wire Line
 	3200 1100 3250 1100
 Connection ~ 3250 1100
 $Comp
-L pcb-rescue:MX-NoLED-MX_Alps_Hybrid MX4
+L MX_Alps_Hybrid:MX-NoLED MX4
 U 1 1 5E48375A
 P 3600 1150
 F 0 "MX4" H 3633 1373 60  0000 C CNN
@@ -424,7 +424,7 @@ Wire Wire Line
 Wire Wire Line
 	2350 1500 2900 1500
 $Comp
-L pcb-rescue:MX-NoLED-MX_Alps_Hybrid MX5
+L MX_Alps_Hybrid:MX-NoLED MX5
 U 1 1 5E48B67D
 P 4150 1150
 F 0 "MX5" H 4183 1373 60  0000 C CNN
@@ -454,7 +454,7 @@ Wire Wire Line
 	4300 1100 4350 1100
 Connection ~ 4350 1100
 $Comp
-L pcb-rescue:MX-NoLED-MX_Alps_Hybrid MX6
+L MX_Alps_Hybrid:MX-NoLED MX6
 U 1 1 5E48B690
 P 4700 1150
 F 0 "MX6" H 4733 1373 60  0000 C CNN
@@ -488,7 +488,7 @@ Wire Wire Line
 Wire Wire Line
 	3450 1500 4000 1500
 $Comp
-L pcb-rescue:MX-NoLED-MX_Alps_Hybrid MX7
+L MX_Alps_Hybrid:MX-NoLED MX7
 U 1 1 5E48FD12
 P 5250 1150
 F 0 "MX7" H 5283 1373 60  0000 C CNN
@@ -518,7 +518,7 @@ Wire Wire Line
 	5400 1100 5450 1100
 Connection ~ 5450 1100
 $Comp
-L pcb-rescue:MX-NoLED-MX_Alps_Hybrid MX8
+L MX_Alps_Hybrid:MX-NoLED MX8
 U 1 1 5E48FD25
 P 5800 1150
 F 0 "MX8" H 5833 1373 60  0000 C CNN
@@ -552,7 +552,7 @@ Wire Wire Line
 Wire Wire Line
 	4550 1500 5100 1500
 $Comp
-L pcb-rescue:MX-NoLED-MX_Alps_Hybrid MX9
+L MX_Alps_Hybrid:MX-NoLED MX9
 U 1 1 5E493CE2
 P 6350 1150
 F 0 "MX9" H 6383 1373 60  0000 C CNN
@@ -582,7 +582,7 @@ Wire Wire Line
 	6500 1100 6550 1100
 Connection ~ 6550 1100
 $Comp
-L pcb-rescue:MX-NoLED-MX_Alps_Hybrid MX10
+L MX_Alps_Hybrid:MX-NoLED MX10
 U 1 1 5E493CF5
 P 6900 1150
 F 0 "MX10" H 6933 1373 60  0000 C CNN
@@ -616,7 +616,7 @@ Wire Wire Line
 Wire Wire Line
 	5650 1500 6200 1500
 $Comp
-L pcb-rescue:MX-NoLED-MX_Alps_Hybrid MX11
+L MX_Alps_Hybrid:MX-NoLED MX11
 U 1 1 5E4991C8
 P 7450 1150
 F 0 "MX11" H 7483 1373 60  0000 C CNN
@@ -646,7 +646,7 @@ Wire Wire Line
 	7600 1100 7650 1100
 Connection ~ 7650 1100
 $Comp
-L pcb-rescue:MX-NoLED-MX_Alps_Hybrid MX12
+L MX_Alps_Hybrid:MX-NoLED MX12
 U 1 1 5E4991DB
 P 8000 1150
 F 0 "MX12" H 8033 1373 60  0000 C CNN
@@ -680,7 +680,7 @@ Wire Wire Line
 Wire Wire Line
 	6750 1500 7300 1500
 $Comp
-L pcb-rescue:MX-NoLED-MX_Alps_Hybrid MX13
+L MX_Alps_Hybrid:MX-NoLED MX13
 U 1 1 5E4FBB90
 P 8550 1150
 F 0 "MX13" H 8583 1373 60  0000 C CNN
@@ -710,7 +710,7 @@ Wire Wire Line
 	8700 1100 8750 1100
 Connection ~ 8750 1100
 $Comp
-L pcb-rescue:MX-NoLED-MX_Alps_Hybrid MX14
+L MX_Alps_Hybrid:MX-NoLED MX14
 U 1 1 5E4FBBA3
 P 9100 1150
 F 0 "MX14" H 9133 1373 60  0000 C CNN
@@ -744,7 +744,7 @@ Wire Wire Line
 Wire Wire Line
 	7850 1500 8400 1500
 $Comp
-L pcb-rescue:MX-NoLED-MX_Alps_Hybrid MX16
+L MX_Alps_Hybrid:MX-NoLED MX16
 U 1 1 5E52B2EB
 P 1950 1850
 F 0 "MX16" H 1983 2073 60  0000 C CNN
@@ -773,7 +773,7 @@ Wire Wire Line
 	2100 1800 2150 1800
 Connection ~ 2150 1800
 $Comp
-L pcb-rescue:MX-NoLED-MX_Alps_Hybrid MX15
+L MX_Alps_Hybrid:MX-NoLED MX15
 U 1 1 5E52B2FE
 P 9650 1150
 F 0 "MX15" H 9683 1373 60  0000 C CNN
@@ -797,7 +797,7 @@ $EndComp
 Wire Wire Line
 	9500 1300 9600 1300
 $Comp
-L pcb-rescue:MX-NoLED-MX_Alps_Hybrid MX17
+L MX_Alps_Hybrid:MX-NoLED MX17
 U 1 1 5E52B311
 P 3050 1850
 F 0 "MX17" H 3083 2073 60  0000 C CNN
@@ -824,7 +824,7 @@ Wire Wire Line
 	3200 1800 3250 1800
 Connection ~ 3250 1800
 $Comp
-L pcb-rescue:MX-NoLED-MX_Alps_Hybrid MX18
+L MX_Alps_Hybrid:MX-NoLED MX18
 U 1 1 5E52B323
 P 3600 1850
 F 0 "MX18" H 3633 2073 60  0000 C CNN
@@ -854,7 +854,7 @@ Connection ~ 3800 1800
 Wire Wire Line
 	2900 2200 3450 2200
 $Comp
-L pcb-rescue:MX-NoLED-MX_Alps_Hybrid MX19
+L MX_Alps_Hybrid:MX-NoLED MX19
 U 1 1 5E52B337
 P 4150 1850
 F 0 "MX19" H 4183 2073 60  0000 C CNN
@@ -882,7 +882,7 @@ Wire Wire Line
 	4300 1800 4350 1800
 Connection ~ 4350 1800
 $Comp
-L pcb-rescue:MX-NoLED-MX_Alps_Hybrid MX20
+L MX_Alps_Hybrid:MX-NoLED MX20
 U 1 1 5E52B349
 P 4700 1850
 F 0 "MX20" H 4733 2073 60  0000 C CNN
@@ -914,7 +914,7 @@ Wire Wire Line
 Wire Wire Line
 	3450 2200 4000 2200
 $Comp
-L pcb-rescue:MX-NoLED-MX_Alps_Hybrid MX21
+L MX_Alps_Hybrid:MX-NoLED MX21
 U 1 1 5E52B35D
 P 5250 1850
 F 0 "MX21" H 5283 2073 60  0000 C CNN
@@ -942,7 +942,7 @@ Wire Wire Line
 	5400 1800 5450 1800
 Connection ~ 5450 1800
 $Comp
-L pcb-rescue:MX-NoLED-MX_Alps_Hybrid MX22
+L MX_Alps_Hybrid:MX-NoLED MX22
 U 1 1 5E52B36F
 P 5800 1850
 F 0 "MX22" H 5833 2073 60  0000 C CNN
@@ -974,7 +974,7 @@ Wire Wire Line
 Wire Wire Line
 	4550 2200 5100 2200
 $Comp
-L pcb-rescue:MX-NoLED-MX_Alps_Hybrid MX23
+L MX_Alps_Hybrid:MX-NoLED MX23
 U 1 1 5E52B383
 P 6350 1850
 F 0 "MX23" H 6383 2073 60  0000 C CNN
@@ -1002,7 +1002,7 @@ Wire Wire Line
 	6500 1800 6550 1800
 Connection ~ 6550 1800
 $Comp
-L pcb-rescue:MX-NoLED-MX_Alps_Hybrid MX24
+L MX_Alps_Hybrid:MX-NoLED MX24
 U 1 1 5E52B395
 P 6900 1850
 F 0 "MX24" H 6933 2073 60  0000 C CNN
@@ -1034,7 +1034,7 @@ Wire Wire Line
 Wire Wire Line
 	5650 2200 6200 2200
 $Comp
-L pcb-rescue:MX-NoLED-MX_Alps_Hybrid MX25
+L MX_Alps_Hybrid:MX-NoLED MX25
 U 1 1 5E52B3A9
 P 7450 1850
 F 0 "MX25" H 7483 2073 60  0000 C CNN
@@ -1062,7 +1062,7 @@ Wire Wire Line
 	7600 1800 7650 1800
 Connection ~ 7650 1800
 $Comp
-L pcb-rescue:MX-NoLED-MX_Alps_Hybrid MX26
+L MX_Alps_Hybrid:MX-NoLED MX26
 U 1 1 5E52B3BB
 P 8000 1850
 F 0 "MX26" H 8033 2073 60  0000 C CNN
@@ -1094,7 +1094,7 @@ Wire Wire Line
 Wire Wire Line
 	6750 2200 7300 2200
 $Comp
-L pcb-rescue:MX-NoLED-MX_Alps_Hybrid MX27
+L MX_Alps_Hybrid:MX-NoLED MX27
 U 1 1 5E52B3CF
 P 8550 1850
 F 0 "MX27" H 8583 2073 60  0000 C CNN
@@ -1122,7 +1122,7 @@ Wire Wire Line
 	8700 1800 8750 1800
 Connection ~ 8750 1800
 $Comp
-L pcb-rescue:MX-NoLED-MX_Alps_Hybrid MX28
+L MX_Alps_Hybrid:MX-NoLED MX28
 U 1 1 5E52B3E1
 P 9100 1850
 F 0 "MX28" H 9133 2073 60  0000 C CNN
@@ -1154,7 +1154,7 @@ Wire Wire Line
 Wire Wire Line
 	7850 2200 8400 2200
 $Comp
-L pcb-rescue:MX-NoLED-MX_Alps_Hybrid MX29
+L MX_Alps_Hybrid:MX-NoLED MX29
 U 1 1 5E52B3F5
 P 9650 1850
 F 0 "MX29" H 9683 2073 60  0000 C CNN
@@ -1211,7 +1211,7 @@ Wire Wire Line
 Wire Wire Line
 	9300 1100 9300 1800
 $Comp
-L pcb-rescue:MX-NoLED-MX_Alps_Hybrid MX31
+L MX_Alps_Hybrid:MX-NoLED MX31
 U 1 1 5E549982
 P 1950 2550
 F 0 "MX31" H 1983 2773 60  0000 C CNN
@@ -1240,7 +1240,7 @@ Wire Wire Line
 	2100 2500 2150 2500
 Connection ~ 2150 2500
 $Comp
-L pcb-rescue:MX-NoLED-MX_Alps_Hybrid MX44
+L MX_Alps_Hybrid:MX-NoLED MX44
 U 1 1 5E549995
 P 10200 2550
 F 0 "MX44" H 10233 2773 60  0000 C CNN
@@ -1264,7 +1264,7 @@ $EndComp
 Wire Wire Line
 	10050 2700 10150 2700
 $Comp
-L pcb-rescue:MX-NoLED-MX_Alps_Hybrid MX32
+L MX_Alps_Hybrid:MX-NoLED MX32
 U 1 1 5E5499A8
 P 3050 2550
 F 0 "MX32" H 3083 2773 60  0000 C CNN
@@ -1291,7 +1291,7 @@ Wire Wire Line
 	3200 2500 3250 2500
 Connection ~ 3250 2500
 $Comp
-L pcb-rescue:MX-NoLED-MX_Alps_Hybrid MX33
+L MX_Alps_Hybrid:MX-NoLED MX33
 U 1 1 5E5499BA
 P 3600 2550
 F 0 "MX33" H 3633 2773 60  0000 C CNN
@@ -1321,7 +1321,7 @@ Connection ~ 3800 2500
 Wire Wire Line
 	2900 2900 3450 2900
 $Comp
-L pcb-rescue:MX-NoLED-MX_Alps_Hybrid MX34
+L MX_Alps_Hybrid:MX-NoLED MX34
 U 1 1 5E5499CE
 P 4150 2550
 F 0 "MX34" H 4183 2773 60  0000 C CNN
@@ -1349,7 +1349,7 @@ Wire Wire Line
 	4300 2500 4350 2500
 Connection ~ 4350 2500
 $Comp
-L pcb-rescue:MX-NoLED-MX_Alps_Hybrid MX35
+L MX_Alps_Hybrid:MX-NoLED MX35
 U 1 1 5E5499E0
 P 4700 2550
 F 0 "MX35" H 4733 2773 60  0000 C CNN
@@ -1381,7 +1381,7 @@ Wire Wire Line
 Wire Wire Line
 	3450 2900 4000 2900
 $Comp
-L pcb-rescue:MX-NoLED-MX_Alps_Hybrid MX36
+L MX_Alps_Hybrid:MX-NoLED MX36
 U 1 1 5E5499F4
 P 5250 2550
 F 0 "MX36" H 5283 2773 60  0000 C CNN
@@ -1409,7 +1409,7 @@ Wire Wire Line
 	5400 2500 5450 2500
 Connection ~ 5450 2500
 $Comp
-L pcb-rescue:MX-NoLED-MX_Alps_Hybrid MX37
+L MX_Alps_Hybrid:MX-NoLED MX37
 U 1 1 5E549A06
 P 5800 2550
 F 0 "MX37" H 5833 2773 60  0000 C CNN
@@ -1441,7 +1441,7 @@ Wire Wire Line
 Wire Wire Line
 	4550 2900 5100 2900
 $Comp
-L pcb-rescue:MX-NoLED-MX_Alps_Hybrid MX38
+L MX_Alps_Hybrid:MX-NoLED MX38
 U 1 1 5E549A1A
 P 6350 2550
 F 0 "MX38" H 6383 2773 60  0000 C CNN
@@ -1469,7 +1469,7 @@ Wire Wire Line
 	6500 2500 6550 2500
 Connection ~ 6550 2500
 $Comp
-L pcb-rescue:MX-NoLED-MX_Alps_Hybrid MX39
+L MX_Alps_Hybrid:MX-NoLED MX39
 U 1 1 5E549A2C
 P 6900 2550
 F 0 "MX39" H 6933 2773 60  0000 C CNN
@@ -1501,7 +1501,7 @@ Wire Wire Line
 Wire Wire Line
 	5650 2900 6200 2900
 $Comp
-L pcb-rescue:MX-NoLED-MX_Alps_Hybrid MX40
+L MX_Alps_Hybrid:MX-NoLED MX40
 U 1 1 5E549A40
 P 7450 2550
 F 0 "MX40" H 7483 2773 60  0000 C CNN
@@ -1529,7 +1529,7 @@ Wire Wire Line
 	7600 2500 7650 2500
 Connection ~ 7650 2500
 $Comp
-L pcb-rescue:MX-NoLED-MX_Alps_Hybrid MX41
+L MX_Alps_Hybrid:MX-NoLED MX41
 U 1 1 5E549A52
 P 8000 2550
 F 0 "MX41" H 8033 2773 60  0000 C CNN
@@ -1561,7 +1561,7 @@ Wire Wire Line
 Wire Wire Line
 	6750 2900 7300 2900
 $Comp
-L pcb-rescue:MX-NoLED-MX_Alps_Hybrid MX42
+L MX_Alps_Hybrid:MX-NoLED MX42
 U 1 1 5E549A66
 P 8550 2550
 F 0 "MX42" H 8583 2773 60  0000 C CNN
@@ -1588,7 +1588,7 @@ Connection ~ 8400 2900
 Wire Wire Line
 	8700 2500 8750 2500
 $Comp
-L pcb-rescue:MX-NoLED-MX_Alps_Hybrid MX43
+L MX_Alps_Hybrid:MX-NoLED MX43
 U 1 1 5E549A78
 P 9100 2550
 F 0 "MX43" H 9133 2773 60  0000 C CNN
@@ -1703,7 +1703,7 @@ Wire Wire Line
 Wire Wire Line
 	3350 6850 3350 6900
 $Comp
-L pcb-rescue:MX-NoLED-MX_Alps_Hybrid MX45
+L MX_Alps_Hybrid:MX-NoLED MX45
 U 1 1 5E7A51E5
 P 2500 3250
 F 0 "MX45" H 2533 3473 60  0000 C CNN
@@ -1727,7 +1727,7 @@ $EndComp
 Wire Wire Line
 	2350 3400 2450 3400
 $Comp
-L pcb-rescue:MX-NoLED-MX_Alps_Hybrid MX58
+L MX_Alps_Hybrid:MX-NoLED MX58
 U 1 1 5E7A51F6
 P 10200 3250
 F 0 "MX58" H 10233 3473 60  0000 C CNN
@@ -1753,7 +1753,7 @@ Wire Wire Line
 Wire Wire Line
 	2650 3200 2700 3200
 $Comp
-L pcb-rescue:MX-NoLED-MX_Alps_Hybrid MX46
+L MX_Alps_Hybrid:MX-NoLED MX46
 U 1 1 5E7A5207
 P 3050 3250
 F 0 "MX46" H 3083 3473 60  0000 C CNN
@@ -1780,7 +1780,7 @@ Connection ~ 2900 3600
 Wire Wire Line
 	3200 3200 3250 3200
 $Comp
-L pcb-rescue:MX-NoLED-MX_Alps_Hybrid MX47
+L MX_Alps_Hybrid:MX-NoLED MX47
 U 1 1 5E7A5217
 P 3600 3250
 F 0 "MX47" H 3633 3473 60  0000 C CNN
@@ -1809,7 +1809,7 @@ Wire Wire Line
 Wire Wire Line
 	2900 3600 3450 3600
 $Comp
-L pcb-rescue:MX-NoLED-MX_Alps_Hybrid MX48
+L MX_Alps_Hybrid:MX-NoLED MX48
 U 1 1 5E7A5229
 P 4150 3250
 F 0 "MX48" H 4183 3473 60  0000 C CNN
@@ -1836,7 +1836,7 @@ Connection ~ 4000 3600
 Wire Wire Line
 	4300 3200 4350 3200
 $Comp
-L pcb-rescue:MX-NoLED-MX_Alps_Hybrid MX49
+L MX_Alps_Hybrid:MX-NoLED MX49
 U 1 1 5E7A5239
 P 4700 3250
 F 0 "MX49" H 4733 3473 60  0000 C CNN
@@ -1867,7 +1867,7 @@ Wire Wire Line
 Wire Wire Line
 	3450 3600 4000 3600
 $Comp
-L pcb-rescue:MX-NoLED-MX_Alps_Hybrid MX50
+L MX_Alps_Hybrid:MX-NoLED MX50
 U 1 1 5E7A524B
 P 5250 3250
 F 0 "MX50" H 5283 3473 60  0000 C CNN
@@ -1894,7 +1894,7 @@ Connection ~ 5100 3600
 Wire Wire Line
 	5400 3200 5450 3200
 $Comp
-L pcb-rescue:MX-NoLED-MX_Alps_Hybrid MX51
+L MX_Alps_Hybrid:MX-NoLED MX51
 U 1 1 5E7A525B
 P 5800 3250
 F 0 "MX51" H 5833 3473 60  0000 C CNN
@@ -1925,7 +1925,7 @@ Wire Wire Line
 Wire Wire Line
 	4550 3600 5100 3600
 $Comp
-L pcb-rescue:MX-NoLED-MX_Alps_Hybrid MX52
+L MX_Alps_Hybrid:MX-NoLED MX52
 U 1 1 5E7A526D
 P 6350 3250
 F 0 "MX52" H 6383 3473 60  0000 C CNN
@@ -1952,7 +1952,7 @@ Connection ~ 6200 3600
 Wire Wire Line
 	6500 3200 6550 3200
 $Comp
-L pcb-rescue:MX-NoLED-MX_Alps_Hybrid MX53
+L MX_Alps_Hybrid:MX-NoLED MX53
 U 1 1 5E7A527D
 P 6900 3250
 F 0 "MX53" H 6933 3473 60  0000 C CNN
@@ -1983,7 +1983,7 @@ Wire Wire Line
 Wire Wire Line
 	5650 3600 6200 3600
 $Comp
-L pcb-rescue:MX-NoLED-MX_Alps_Hybrid MX54
+L MX_Alps_Hybrid:MX-NoLED MX54
 U 1 1 5E7A528F
 P 7450 3250
 F 0 "MX54" H 7483 3473 60  0000 C CNN
@@ -2010,7 +2010,7 @@ Connection ~ 7300 3600
 Wire Wire Line
 	7600 3200 7650 3200
 $Comp
-L pcb-rescue:MX-NoLED-MX_Alps_Hybrid MX55
+L MX_Alps_Hybrid:MX-NoLED MX55
 U 1 1 5E7A529F
 P 8000 3250
 F 0 "MX55" H 8033 3473 60  0000 C CNN
@@ -2041,7 +2041,7 @@ Wire Wire Line
 Wire Wire Line
 	6750 3600 7300 3600
 $Comp
-L pcb-rescue:MX-NoLED-MX_Alps_Hybrid MX56
+L MX_Alps_Hybrid:MX-NoLED MX56
 U 1 1 5E7A52C1
 P 9100 3250
 F 0 "MX56" H 9133 3473 60  0000 C CNN
@@ -2068,7 +2068,7 @@ Connection ~ 8950 3600
 Wire Wire Line
 	9250 3200 9300 3200
 $Comp
-L pcb-rescue:MX-NoLED-MX_Alps_Hybrid MX57
+L MX_Alps_Hybrid:MX-NoLED MX57
 U 1 1 5E7A52D3
 P 9650 3250
 F 0 "MX57" H 9683 3473 60  0000 C CNN
@@ -2099,7 +2099,7 @@ Wire Wire Line
 Wire Wire Line
 	8950 3600 9500 3600
 $Comp
-L pcb-rescue:MX-NoLED-MX_Alps_Hybrid MX59
+L MX_Alps_Hybrid:MX-NoLED MX59
 U 1 1 5E7A52F4
 P 1950 3950
 F 0 "MX59" H 1983 4173 60  0000 C CNN
@@ -2128,7 +2128,7 @@ Connection ~ 1800 4300
 Wire Wire Line
 	2100 3900 2150 3900
 $Comp
-L pcb-rescue:MX-NoLED-MX_Alps_Hybrid MX60
+L MX_Alps_Hybrid:MX-NoLED MX60
 U 1 1 5E7A5326
 P 3600 3950
 F 0 "MX60" H 3633 4173 60  0000 C CNN
@@ -2155,7 +2155,7 @@ Connection ~ 3450 4300
 Wire Wire Line
 	3750 3900 3800 3900
 $Comp
-L pcb-rescue:MX-NoLED-MX_Alps_Hybrid MX61
+L MX_Alps_Hybrid:MX-NoLED MX61
 U 1 1 5E7A536A
 P 5800 3950
 F 0 "MX61" H 5833 4173 60  0000 C CNN
@@ -2182,7 +2182,7 @@ Connection ~ 5650 4300
 Wire Wire Line
 	5950 3900 6000 3900
 $Comp
-L pcb-rescue:MX-NoLED-MX_Alps_Hybrid MX62
+L MX_Alps_Hybrid:MX-NoLED MX62
 U 1 1 5E7A53AE
 P 8000 3950
 F 0 "MX62" H 8033 4173 60  0000 C CNN
@@ -2209,7 +2209,7 @@ Connection ~ 7850 4300
 Wire Wire Line
 	8150 3900 8200 3900
 $Comp
-L pcb-rescue:MX-NoLED-MX_Alps_Hybrid MX63
+L MX_Alps_Hybrid:MX-NoLED MX63
 U 1 1 5E7A53D0
 P 9100 3950
 F 0 "MX63" H 9133 4173 60  0000 C CNN
@@ -2236,7 +2236,7 @@ Connection ~ 8950 4300
 Wire Wire Line
 	9250 3900 9300 3900
 $Comp
-L pcb-rescue:MX-NoLED-MX_Alps_Hybrid MX64
+L MX_Alps_Hybrid:MX-NoLED MX64
 U 1 1 5E7A53E2
 P 9650 3950
 F 0 "MX64" H 9683 4173 60  0000 C CNN
@@ -2340,7 +2340,7 @@ Wire Wire Line
 	9850 1100 9850 850 
 Connection ~ 9850 1100
 $Comp
-L pcb-rescue:MX-NoLED-MX_Alps_Hybrid MX30
+L MX_Alps_Hybrid:MX-NoLED MX30
 U 1 1 5EBCABF8
 P 10200 1850
 F 0 "MX30" H 10233 2073 60  0000 C CNN
@@ -2374,7 +2374,7 @@ Wire Wire Line
 Wire Wire Line
 	9850 1800 9850 3200
 $Comp
-L pcb-rescue:MX-NoLED-MX_Alps_Hybrid MX65
+L MX_Alps_Hybrid:MX-NoLED MX65
 U 1 1 5EF67313
 P 10200 3950
 F 0 "MX65" H 10233 4173 60  0000 C CNN
@@ -2526,17 +2526,17 @@ Wire Wire Line
 Connection ~ 750  7150
 Wire Wire Line
 	750  7150 750  7400
-Text GLabel 3250 5400 1    50   Input ~ 0
-row0
 Text GLabel 3350 5400 1    50   Input ~ 0
-row1
+row0
 Text GLabel 3450 5400 1    50   Input ~ 0
-row2
+row1
 Text GLabel 3550 5400 1    50   Input ~ 0
-row3
+row2
 Text GLabel 3750 5400 1    50   Input ~ 0
+row3
+Text GLabel 3250 5400 1    50   Input ~ 0
 row4
-Text GLabel 2350 5400 1    50   Input ~ 0
+Text GLabel 2050 5400 1    50   Input ~ 0
 col3
 Text GLabel 4450 5400 1    50   Input ~ 0
 col4
@@ -2572,11 +2572,11 @@ NoConn ~ 7500 5750
 Connection ~ 7150 5950
 Wire Wire Line
 	7150 5950 7200 5950
-Text GLabel 2250 5400 1    50   Input ~ 0
-col2
 Text GLabel 2150 5400 1    50   Input ~ 0
+col2
+Text GLabel 2250 5400 1    50   Input ~ 0
 col1
-Text GLabel 2050 5400 1    50   Input ~ 0
+Text GLabel 2350 5400 1    50   Input ~ 0
 col0
 $Comp
 L Device:Crystal_GND24 Y1
