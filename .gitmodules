@@ -1,4 +1,4 @@
-[submodule "PCB/ai03_mx_alps"]
-	path = PCB/ai03_mx_alps
+[submodule "PCB/pcb/ai03_mx_alps"]
+	path = PCB/pcb/ai03_mx_alps
 	url = https://github.com/ai03-2725/MX_Alps_Hybrid
 	branch = master
