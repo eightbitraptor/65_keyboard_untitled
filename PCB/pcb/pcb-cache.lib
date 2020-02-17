@@ -96,9 +96,9 @@ $FPLIST
  D_*
 $ENDFPLIST
 DRAW
-P 2 0 1 0 -30 -40 -30 40 N
+P 2 0 1 10 -30 -40 -30 40 N
 P 2 0 1 0 -30 0 30 0 N
-P 4 0 1 0 30 -40 -30 0 30 40 30 -40 N
+P 4 0 1 10 30 -40 -30 0 30 40 30 -40 N
 X K 1 -100 0 70 R 50 50 1 1 P
 X A 2 100 0 70 L 50 50 1 1 P
 ENDDRAW
@@ -113,6 +113,9 @@ F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
  SolderJumper*Open*
+ Jumper*
+ TestPoint*2Pads*
+ TestPoint*Bridge*
 $ENDFPLIST
 DRAW
 C -40 0 20 0 1 0 N
@@ -199,11 +202,11 @@ X PB1 9 600 1400 100 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# pcb-rescue_MX-NoLED-MX_Alps_Hybrid
+# MX_Alps_Hybrid_MX-NoLED
 #
-DEF pcb-rescue_MX-NoLED-MX_Alps_Hybrid MX 0 40 Y Y 1 F N
+DEF MX_Alps_Hybrid_MX-NoLED MX 0 40 Y Y 1 F N
 F0 "MX" -25 150 60 H V C CNN
-F1 "pcb-rescue_MX-NoLED-MX_Alps_Hybrid" -25 50 20 H V C CNN
+F1 "MX_Alps_Hybrid_MX-NoLED" -25 50 20 H V C CNN
 F2 "" -625 -25 60 H I C CNN
 F3 "" -625 -25 60 H I C CNN
 DRAW
