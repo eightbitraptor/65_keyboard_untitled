@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name MX_Alps_Hybrid)(type Legacy)(uri "/Users/mattvh/code/personal/65_keyboard_untitled/PCB/ai03_mx_alps/Schematic Library/MX_Alps_Hybrid.lib")(options "")(descr ""))
+  (lib (name MX_Alps_Hybrid)(type Legacy)(uri "D:/Code/65_keyboard_untitled/PCB/ai03_mx_alps/Schematic Library/MX_Alps_Hybrid.lib")(options "")(descr ""))
+  (lib (name pcb-rescue)(type Legacy)(uri ${KIPRJMOD}/pcb-rescue.lib)(options "")(descr ""))
 )
