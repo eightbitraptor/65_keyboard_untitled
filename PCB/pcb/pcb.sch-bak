@@ -2550,17 +2550,17 @@ Text GLabel 4850 5400 1    50   Input ~ 0
 col8
 Text GLabel 4950 5400 1    50   Input ~ 0
 col9
-Text GLabel 3050 5400 1    50   Input ~ 0
-col10
-Text GLabel 2950 5400 1    50   Input ~ 0
-col11
-Text GLabel 2650 5400 1    50   Input ~ 0
-col12
-Text GLabel 2550 5400 1    50   Input ~ 0
-col13
-Text GLabel 2450 5400 1    50   Input ~ 0
-col14
 Text GLabel 3950 5400 1    50   Input ~ 0
+col10
+Text GLabel 2450 5400 1    50   Input ~ 0
+col11
+Text GLabel 2550 5400 1    50   Input ~ 0
+col12
+Text GLabel 2650 5400 1    50   Input ~ 0
+col13
+Text GLabel 2950 5400 1    50   Input ~ 0
+col14
+Text GLabel 3050 5400 1    50   Input ~ 0
 col15
 NoConn ~ 2750 5400
 NoConn ~ 3650 5400
