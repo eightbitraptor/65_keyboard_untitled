@@ -241,7 +241,7 @@ L Device:R_Small R2
 U 1 1 5E45E85B
 P 7800 5550
 F 0 "R2" V 7700 5400 50  0000 C CNN
-F 1 "10k" V 7695 5550 50  0000 C CNN
+F 1 "22" V 7695 5550 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 7800 5550 50  0001 C CNN
 F 3 "~" H 7800 5550 50  0001 C CNN
 	1    7800 5550
@@ -252,7 +252,7 @@ L Device:R_Small R3
 U 1 1 5E45EDA3
 P 7800 5650
 F 0 "R3" V 7700 5800 50  0000 C CNN
-F 1 "10k" V 7700 5650 50  0000 C CNN
+F 1 "22" V 7700 5650 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 7800 5650 50  0001 C CNN
 F 3 "~" H 7800 5650 50  0001 C CNN
 	1    7800 5650
@@ -278,7 +278,7 @@ L Device:R_Small R4
 U 1 1 5E5012BB
 P 1050 6550
 F 0 "R4" H 1109 6596 50  0000 L CNN
-F 1 "R_Small" H 1109 6505 50  0000 L CNN
+F 1 "10k" H 1109 6505 50  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 1050 6550 50  0001 C CNN
 F 3 "~" H 1050 6550 50  0001 C CNN
 	1    1050 6550
@@ -2512,8 +2512,6 @@ F 3 "" H 9300 6300 50  0001 C CNN
 $EndComp
 Connection ~ 9300 6300
 Wire Wire Line
-	1050 6750 2050 6750
-Wire Wire Line
 	1050 6450 1050 5900
 Wire Wire Line
 	1050 5900 1650 5900
@@ -2572,11 +2570,11 @@ NoConn ~ 7500 5750
 Connection ~ 7150 5950
 Wire Wire Line
 	7150 5950 7200 5950
-Text GLabel 2150 5400 1    50   Input ~ 0
+Text GLabel 1700 4950 1    50   Input ~ 0
 col2
-Text GLabel 2250 5400 1    50   Input ~ 0
+Text GLabel 2100 4800 1    50   Input ~ 0
 col1
-Text GLabel 2350 5400 1    50   Input ~ 0
+Text GLabel 2700 4950 1    50   Input ~ 0
 col0
 $Comp
 L Device:Crystal_GND24 Y1
@@ -2639,18 +2637,89 @@ F 3 "" H 10500 6150 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:Jumper_NO_Small JP1
-U 1 1 5E4BD970
+L Connector_Generic:Conn_02x03_Odd_Even J2
+U 1 1 5E528F69
+P 5250 7250
+F 0 "J2" H 5300 7567 50  0000 C CNN
+F 1 "ICSP" H 5300 7476 50  0000 C CNN
+F 2 "" H 5250 7250 50  0001 C CNN
+F 3 "~" H 5250 7250 50  0001 C CNN
+	1    5250 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW1
+U 1 1 5E56EAEA
 P 1050 6950
-F 0 "JP1" V 1004 6998 50  0000 L CNN
-F 1 "Jumper_NO_Small" V 1095 6998 50  0000 L CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 1050 6950 50  0001 C CNN
-F 3 "~" H 1050 6950 50  0001 C CNN
+F 0 "SW1" V 1004 7098 50  0000 L CNN
+F 1 "RESET" V 1095 7098 50  0000 L CNN
+F 2 "" H 1050 7150 50  0001 C CNN
+F 3 "~" H 1050 7150 50  0001 C CNN
 	1    1050 6950
 	0    1    1    0   
 $EndComp
+$Comp
+L power:+5V #PWR0103
+U 1 1 5E5B4488
+P 5650 7050
+F 0 "#PWR0103" H 5650 6900 50  0001 C CNN
+F 1 "+5V" H 5665 7223 50  0000 C CNN
+F 2 "" H 5650 7050 50  0001 C CNN
+F 3 "" H 5650 7050 50  0001 C CNN
+	1    5650 7050
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	1050 6750 1050 6850
+	5550 7150 5650 7150
 Wire Wire Line
-	1050 7150 1050 7050
+	5650 7150 5650 7050
+$Comp
+L power:GND #PWR0104
+U 1 1 5E5D708B
+P 5650 7450
+F 0 "#PWR0104" H 5650 7200 50  0001 C CNN
+F 1 "GND" H 5655 7277 50  0000 C CNN
+F 2 "" H 5650 7450 50  0001 C CNN
+F 3 "" H 5650 7450 50  0001 C CNN
+	1    5650 7450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 7350 5650 7350
+Wire Wire Line
+	5650 7350 5650 7450
+Text GLabel 2850 4950 1    50   Input ~ 0
+MISO
+Text GLabel 5050 7150 0    50   Input ~ 0
+MISO
+Text GLabel 5050 7250 0    50   Input ~ 0
+SCK
+Text GLabel 1850 4950 1    50   Input ~ 0
+SCK
+Wire Wire Line
+	1700 4950 2150 4950
+Wire Wire Line
+	2150 4950 2150 5400
+Text GLabel 5050 7350 0    50   Input ~ 0
+RESET
+Text GLabel 1850 6750 0    50   Input ~ 0
+RESET
+Text GLabel 1250 6750 2    50   Input ~ 0
+RESET
+Wire Wire Line
+	1050 6750 1250 6750
+Wire Wire Line
+	1850 6750 2050 6750
+Text GLabel 5550 7250 2    50   Input ~ 0
+MOSI
+Wire Wire Line
+	2350 4950 2850 4950
+Wire Wire Line
+	2350 4950 2350 5400
+Text GLabel 2250 4800 1    50   Input ~ 0
+MOSI
+Wire Wire Line
+	2100 4800 2250 4800
+Wire Wire Line
+	2250 4800 2250 5400
 $EndSCHEMATC
